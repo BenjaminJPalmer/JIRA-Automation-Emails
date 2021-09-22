@@ -10,8 +10,10 @@
             style="border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0">
             <tbody>
                 <tr>
-                    <td align="center" style="font-family: Roboto, sans-serif; color: #2C72D7; font-size: 30px;">
-                        ASCENSOR | BOARDS</span></td>
+                    <td align="center"
+                        style="padding-top: 30px; padding-bottom: 30px; font-family: Roboto, sans-serif; color: #2C72D7; font-size: 30px;">
+                        <b>ASCENSOR</b> | BOARDS
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -23,13 +25,13 @@
             <td id="email-content-container"
                 style="padding: 0; border-collapse: collapse; padding-left: 20px; padding-right: 20px;">
                 <table id="email-content-table" cellspacing="0" cellpadding="0" border="0" width="600" align="center"
-                    style="border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0; border-spacing: 0; border-collapse: separate; border-bottom: 1px solid #2C72D7;">
+                    style="border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0; border-spacing: 0; border-collapse: separate;">
                     <tbody>
 
                         <!-- INNER CONTENT -->
                         <tr>
-                            <td class="email-content-main mobile-expand "
-                                style="border-collapse: collapse; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px;"
+                            <td class="email-content-main mobile-expand"
+                                style="border-collapse: collapse; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; border-bottom: 1px solid #2C72D7;"
                                 bgcolor="#ffffff">
                                 <table class="page-title-pattern" cellspacing="0" cellpadding="0" border="0"
                                     style="border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0;">
@@ -48,11 +50,10 @@
                                         <tr>
                                             <td id="header-text-container" valign="middle"
                                                 style="padding-top: 60px; padding-left: 50px; padding-right: 50px; border-collapse: collapse; vertical-align: middle; font-family: Roboto, sans-serif; font-size: 16px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px">
-                                                <a class="user-hover"
-                                                    style="color:#2C72D7; font-weight: strong; text-decoration: none"
-                                                    id="email_557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
-                                                    href="https://ascensor.atlassian.net/jira/people/{{assignee.accountId}}">
-                                                    {{assignee.displayName}}</a>
+                                                <b><a class="user-hover" style="color: #333333; text-decoration: none"
+                                                        id="email_557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+                                                        href="https://ascensor.atlassian.net/jira/people/{{assignee.accountId}}">
+                                                        {{assignee.displayName}}</a></b>
                                                 commented on <a
                                                     href="https://ascensor.atlassian.net/browse/{{issue.key}}"
                                                     style="color: #2C72D7; text-decoration: none">{{issue.key}}</a>
@@ -61,11 +62,12 @@
                                         <tr>
                                             <td id="header-text-container" valign="middle"
                                                 style="padding-top: 40px; padding-left: 50px; padding-right: 50px; border-collapse: collapse; vertical-align: middle; font-family: Roboto, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px">
-                                                <b><a class="user-hover" rel="557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
-                                                    style="color:#2C72D7;font-weight: strong; text-decoration: none; font-size: 18px; line-height: 21px;"
-                                                    id="email_557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
-                                                    href="https://ascensor.atlassian.net/browse/{{issue.key}}">
-                                                    {{issue.summary}}</a></b>
+                                                <b><a class="user-hover"
+                                                        rel="557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+                                                        style="color:#2C72D7;font-weight: strong; text-decoration: none; font-size: 18px; line-height: 21px;"
+                                                        id="email_557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+                                                        href="https://ascensor.atlassian.net/browse/{{issue.key}}">
+                                                        {{issue.summary}}</a></b>
                                             </td>
                                         </tr>
                                         <tr>
@@ -75,12 +77,20 @@
                                                     style="font-family: Roboto, sans-serif; font-size: 16px; line-height: 21px; mso-text-raise: 2px; mso-line-height-rule: exactly; vertical-align: middle">
                                                     <p>
                                                         {{comment.body}}</p>
-                                                </span> </td>
+                                                </span></td>
                                         </tr>
                                         <tr>
                                             <td class="actions-pattern-action-icon-container"
-                                                style="color: #2C72D7; padding-top: 40px; padding-bottom: 100px; padding-left: 50px; padding-right: 50px; border-collapse: collapse; font-family: Roboto, sans-serif; font-size: 16px; line-height: 21px; mso-line-height-rule: exactly; mso-text-raise: 0; vertical-align: middle">
-                                                Add comment
+                                                style="padding-top: 40px; padding-bottom: 40px; padding-left: 50px; padding-right: 50px; border-collapse: collapse; font-family: Roboto, sans-serif; font-size: 16px; line-height: 21px; mso-line-height-rule: exactly; mso-text-raise: 0; vertical-align: middle">
+                                                <a style="text-decoration: none; color: #2C72D7;"
+                                                    href="https://ascensor.atlassian.net/browse/{{issue.key}}#add-comment">Add
+                                                    comment
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-bottom: 60px;">
+                                                <hr width="300" height="1px" align="center" style="color: #E9EBF1">
                                             </td>
                                         </tr>
                                     </tbody>
@@ -99,7 +109,7 @@
                         <tr>
                             <td id="footer-pattern-mobile-separated-links" class="mobile-resize-text"
                                 style="padding-right: 280px; padding-top: 15px; padding-bottom: 50px; border-collapse: collapse; color: #2C72D7; font-size: 12px; line-height: 14px; font-family: Roboto, sans-serif; mso-line-height-rule: exactly; mso-text-raise: 2px">
-                                ASCENSOR
+                                <b>ASCENSOR</b>
                             </td>
                             <td id="footer-pattern-mobile-separated-links" class="mobile-resize-text"
                                 style="padding-top: 15px; padding-bottom: 50px; border-collapse: collapse; color: #707070; font-size: 12px; line-height: 14px; font-family: Roboto, sans-serif; mso-line-height-rule: exactly; mso-text-raise: 2px">
@@ -113,5 +123,3 @@
         </tbody>
     </table>
 </body>
-
-</html>
